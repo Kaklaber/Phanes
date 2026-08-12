@@ -4,6 +4,10 @@ Phanes is a fast, browser-based image-to-ASCII converter. It runs entirely in yo
 
 **Live demo:** https://Kaklaber.github.io/Phanes/
 
+<p align="center">
+  <img src="screenshot.jpg" alt="Phanes screenshot" width="900">
+</p>
+
 ## Features
 
 - Convert JPG, PNG, GIF, WebP, BMP, SVG, and AVIF images
