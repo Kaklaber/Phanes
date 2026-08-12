@@ -2,9 +2,7 @@
 
 Phanes is a fast, browser-based image-to-ASCII converter. It runs entirely in your browser, so your images are processed locally and are not uploaded to a server.
 
-**Live demo:** https://YOUR-USERNAME.github.io/phanes/
-
-> Replace `YOUR-USERNAME` with your GitHub username after publishing.
+**Live demo:** https://Kaklaber.github.io/Phanes/
 
 ## Features
 
@@ -19,7 +17,7 @@ Phanes is a fast, browser-based image-to-ASCII converter. It runs entirely in yo
 
 ## How to use
 
-1. Open the [live demo](https://YOUR-USERNAME.github.io/phanes/).
+1. Open the [live demo](https://Kaklaber.github.io/Phanes/).
 2. Drop an image onto the preview, choose **Open image**, or start the camera.
 3. Adjust the output and style controls.
 4. Copy the ASCII art or export it in your preferred format.
@@ -37,7 +35,7 @@ For the best plain-text result, use a monospace font and turn off line wrapping 
 The site will be available at:
 
 ```text
-https://YOUR-USERNAME.github.io/phanes/
+https://Kaklaber.github.io/Phanes/
 ```
 
 GitHub Pages uses HTTPS, which is required for camera access in most browsers.
