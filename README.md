@@ -24,20 +24,6 @@ Phanes is a fast, browser-based image-to-ASCII converter. It runs entirely in yo
 
 For the best plain-text result, use a monospace font and turn off line wrapping in your text editor.
 
-## Publish with GitHub Pages
-
-1. Create a public GitHub repository named `phanes`.
-2. Upload `index.html`, `README.md`, and `LICENSE` to the repository root.
-3. Open **Settings → Pages** in the repository.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`, then save.
-
-The site will be available at:
-
-```text
-https://Kaklaber.github.io/Phanes/
-```
-
 GitHub Pages uses HTTPS, which is required for camera access in most browsers.
 
 ## Local use
