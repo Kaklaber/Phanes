@@ -1,6 +1,6 @@
 # Phanes
 
-Phanes is a fast, browser-based image-to-ASCII converter. It runs entirely in your browser, so your images are processed locally and are not uploaded to a server.
+Phanes is a single HTML file that holds three image tools. Click a box, use the tool, click **All tools** to come back. Everything runs in your browser, so your images are processed locally and are not uploaded to a server.
 
 **Live demo:** https://Kaklaber.github.io/Phanes/
 
@@ -8,31 +8,25 @@ Phanes is a fast, browser-based image-to-ASCII converter. It runs entirely in yo
   <img src="screenshot.jpg" alt="Phanes screenshot" width="900">
 </p>
 
-## Features
+## The three tools
 
-- Convert JPG, PNG, GIF, WebP, BMP, SVG, and AVIF images
-- Drag and drop files or use a live camera
-- Choose monochrome, terminal, original color, spectral, or cyber output
-- Adjust resolution, character ramps, tone, levels, dithering, texture, and image direction
-- Fit or manually zoom the preview
-- Select and copy the generated ASCII text
-- Export as TXT, HTML, or PNG
-- Works without frameworks, external assets, or runtime dependencies
+- **Thoth — Image to ASCII** — convert an image or a live camera frame into ASCII art.
+- **Tessellate — Image to HTML/CSS** — rebuild an image as a mosaic of HTML/CSS blocks.
+- **Trace — Image to SVG** — trace a bitmap into clean, editable SVG paths.
 
 ## How to use
 
-1. Open the [live demo](https://Kaklaber.github.io/Phanes/).
-2. Drop an image onto the preview, choose **Open image**, or start the camera.
-3. Adjust the output and style controls.
-4. Copy the ASCII art or export it in your preferred format.
+1. Open the [live demo](https://Kaklaber.github.io/Phanes/) or the downloaded `index.html`.
+2. Click the tool you want.
+3. Drop an image in, adjust the controls, and export. **All tools** (top left) goes back to the three boxes.
 
-For the best plain-text result, use a monospace font and turn off line wrapping in your text editor.
+## One file
 
-GitHub Pages uses HTTPS, which is required for camera access in most browsers.
+The three tools are embedded inside `index.html`, so Phanes is one file with no dependencies, no build step, and no network calls — it works offline, even from a USB stick.
 
 ## Local use
 
-Download `index.html` and open it in a modern browser. Image conversion works locally and offline. Camera access works best through GitHub Pages or another HTTPS host.
+Download `index.html` and open it in a modern browser. Camera access in Thoth needs HTTPS, so that one button works best through GitHub Pages or any local server.
 
 ## Credits
 
